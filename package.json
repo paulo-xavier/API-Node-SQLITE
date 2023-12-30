@@ -1,0 +1,21 @@
+{
+  "name": "api-node_and_sqlite",
+  "version": "1.0.0",
+  "description": "API using Node.js and SQLITE3",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo Xavier",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7-rc.0"
+  }, 
+
+  "type": "module"
+
+}
