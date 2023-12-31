@@ -1,0 +1,6 @@
+npm isntall -g nodemon -> install the packaegs of nodemon 
+
+npm install --save nodemon --> Install nodemon in the project
+
+
+res.send() -> Retorna uma string
