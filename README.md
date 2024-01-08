@@ -7,7 +7,8 @@
 - [Technologies used]()
 - [Screenshot]()
 - [Acknowledgments]()
-- [How to use the API?]
+- [How to use the API?]()
+- [Author]()
 
 
 ## About the project 🎯 
@@ -50,16 +51,36 @@ and fluid website for all devices. And the most important, API consuming on the 
 
 ## Acknowledgments 🥳
 
-A special thanks to [Yuri Marcon](https://github.com/yurimarcon) for the support in the process of developing the API. You are an excellent teacher. Thanks for sharing the step-by-step guide
-about how to develop an API using SQLITE on Youtube. Thank you :)
+A special thanks to [Yuri Marcon](https://github.com/yurimarcon) for the support in the process of developing the API. You are an excellent teacher. Thanks for sharing the step-by-step guide about how to develop an API using SQLITE on Youtube. Thank you :)
 
 ## How to use the API? ❓
 
-First, open the terminal on your computer and clone this repository on your using the following command: 
-`git clone `
+First, open the terminal on your computer and clone this repository using the following command:  <br> <br>
+`git clone https://github.com/paulo-xavier/Dashboard-Frontend-API-Node-and-SQLITE `
 
-          
-          
+After that, type `npm run dev` and wait for the server to be opened locally on your machine. The following message will appear on your terminal:  <br> <br>
+![image](https://github.com/paulo-xavier/Dashboard-Frontend-API-Node-and-SQLITE/assets/133855530/977e750b-5405-457a-862f-ca8fb15dec52)
+
+<br> 
+
+When this message appears, the server will be locally opened on your machine and you can use the Front-end available on `index.html`.  
+
+<br> <br> 
+
+Thanks for the support. 
+
+Best regards,<br>
+Paulo Xavier.
+
+---
+
+
+## Author
+- Frontend Mentor ✔️- [@paulo-xavier](https://www.frontendmentor.io/profile/paulo-xavier)
+- Instagram ✔️- [@oxavierpaulo](https://www.instagram.com/oxavierpaulo/)
+- GitHub ✔️- [@paulo-xavier](https://github.com/paulo-xavier)
+- Linkedin ✔️- [@Paulo Roberto Xavier da Silva](https://www.linkedin.com/in/paulo-xavier-15bb6924a/)
+
           
 
  
