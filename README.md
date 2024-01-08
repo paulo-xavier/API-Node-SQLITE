@@ -15,7 +15,7 @@
 
 ### Explanation
 
-This project consists of a Dashboard Pannel where the administrator can perform actions such as Creating, Reading, Updating and 
+This project consists of a Dashboard Panel where the administrator can perform actions such as Creating, Reading, Updating and 
 Deleting people and companies. The administrator has available two pannels, 
 one for people and one for companies where he can carry out these actions. 
 The dashboard is connected to an API developed in Node.js and a database in SQLITE. 
@@ -65,7 +65,7 @@ After that, type `npm run dev` and wait for the server to be opened locally on y
 
 When this message appears, the server will be locally opened on your machine and you can use the Front-end available on `index.html`.  
 
-<br> <br> 
+<br> 
 
 Thanks for the support. 
 
