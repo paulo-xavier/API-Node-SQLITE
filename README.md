@@ -16,7 +16,7 @@
 ### Explanation
 
 This project consists of a Dashboard Panel where the administrator can perform actions such as Creating, Reading, Updating and 
-Deleting people and companies. The administrator has available two pannels, 
+Deleting people and companies. The administrator has available two panels, 
 one for people and one for companies where he can carry out these actions. 
 The dashboard is connected to an API developed in Node.js and a database in SQLITE. 
 The interface was designed on Figma, and then developed using HTML5, CSS3 , Bootstrap and Javascript. 
