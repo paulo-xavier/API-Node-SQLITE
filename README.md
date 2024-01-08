@@ -2,13 +2,13 @@
 
 ## Table of contents 
 - [About the project](#about-the-project-)
-  - [Explanation]()     
-  - [What I learned?]()
-- [Technologies used]()
-- [Screenshot]()
-- [Acknowledgments]()
-- [How to use the API?]()
-- [Author]()
+  - [Explanation](#explanation)     
+  - [What I learned?](#what-i-learned)
+- [Technologies used](#technologies-used)
+- [Screenshot](#screenshot)
+- [Acknowledgments](#acknowledgments)
+- [How to use the API?](#how-to-use-the-api)
+- [Author](#author)
 
 
 ## About the project 🎯 
