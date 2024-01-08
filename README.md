@@ -1,7 +1,7 @@
 # Dashboard for register of People and Companies using API Node  🌐
 
 ## Table of contents 
-- [About the project]()
+- [About the project](#about-the-project-)
   - [Explanation]()     
   - [What I learned?]()
 - [Technologies used]()
