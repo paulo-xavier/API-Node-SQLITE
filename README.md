@@ -4,10 +4,10 @@
 - [About the project](#about-the-project-)
   - [Explanation](#explanation)     
   - [What I learned?](#what-i-learned)
-- [Technologies used](#technologies-used-)
-- [Screenshot](#screenshot)
-- [Acknowledgments](#acknowledgments)
-- [How to use the API?](#how-to-use-the-api)
+- [Technologies used](#technologies-used-%EF%B8%8F)
+- [Screenshot](#screenshot-%EF%B8%8F)
+- [Acknowledgments](#acknowledgments-)
+- [How to use the API?](#how-to-use-the-api-)
 - [Author](#author)
 
 
