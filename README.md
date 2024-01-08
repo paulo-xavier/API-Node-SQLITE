@@ -4,7 +4,7 @@
 - [About the project](#about-the-project-)
   - [Explanation](#explanation)     
   - [What I learned?](#what-i-learned)
-- [Technologies used](#technologies-used)
+- [Technologies used](#technologies-used-)
 - [Screenshot](#screenshot)
 - [Acknowledgments](#acknowledgments)
 - [How to use the API?](#how-to-use-the-api)
