@@ -15,7 +15,7 @@ export async function selectPessoas(req, res) {
 
 
 export async function selectPessoa(req, res) {
-    let id = req.body.id; 
+    let id = req.query.id; 
 
     openDb().then(db => {
         db.get('SELECT * FROM Pessoa WHERE id = ?', [id])
@@ -44,8 +44,6 @@ export async function updatePessoa(req, res) {
         "statusCode" : 200
     })
 }
-
-
 
 export async function deletePessoa(req, res) {
     let id = req.body.id; 

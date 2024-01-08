@@ -1,0 +1,151 @@
+body {
+    background-color: #383838;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container-dashboard {
+    border-radius: 30px;
+    background-color: #FCFCFC;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+header {
+    margin: 15px 0px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#pessoas,
+#empresas {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+
+#pessoas {
+    color: rgba(14, 14, 202, 0.822);
+}
+
+#container-actions {
+    margin: 20px 0px;
+    min-height: 100%;
+    flex-wrap: wrap;
+}
+
+#card-cadastrar,
+#card-atualizar,
+#card-deletar {
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 100%;
+}
+
+#card-cadastrar {
+    background-color: #438AA8;
+}
+
+#card-atualizar {
+    background-color: #BB1;;
+}
+
+#card-deletar {
+    background-color: #D67984;;
+}
+
+.card-title {
+
+    color: red;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    border-radius: 5px;
+    background: #e6e4e4;
+    border: none;
+    height: 30px;
+    padding: 10px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+
+.btn-cadastrar,
+.btn-atualizar,
+.btn-consultar-id,
+.btn-listar,
+.btn-deletar {
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: all .4s;
+}
+
+.btn-cadastrar,
+.btn-atualizar,
+.btn-consultar-id,
+.btn-listar {
+    background-color: #59BC8D;
+}
+
+.btn-deletar {
+    background-color: #BC5959;
+}
+
+.btn-cadastrar:hover, 
+.btn-atualizar:hover, 
+.btn-consultar-id:hover, 
+.btn-listar:hover {
+    background-color: #53ad83;
+}
+
+.btn-deletar:hover {
+    background-color: #a54c4c;;
+}
+
+.btn-listar {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+#container-queries {
+    margin: 10px 0px;
+}
+
+#col-table {
+    overflow-y: scroll;
+    height: 220px;
+    min-width: 60%;
+    padding: 15px;
+}
+
+.table-title, 
+.query-title {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #212529; 
+}
+
+@media (max-width: 991px) {
+    #container-actions {
+        gap: 20px;
+    }
+}

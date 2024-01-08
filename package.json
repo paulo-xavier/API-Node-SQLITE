@@ -2,9 +2,9 @@
   "name": "api-node_and_sqlite",
   "version": "1.0.0",
   "description": "API using Node.js and SQLITE3",
-  "main": "src/app.js",
+  "main": "server/src/app.js",
   "scripts": {
-    "dev": "nodemon src/app.js",
+    "dev": "nodemon server/src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paulo Xavier",

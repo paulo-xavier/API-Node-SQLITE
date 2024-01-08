@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { createTable, insertPessoa, selectPessoas, selectPessoa, updatePessoa, deletePessoa } from './Controller/Pessoa.js'; 
 
+import { createTable, insertPessoa, selectPessoas, selectPessoa, updatePessoa, deletePessoa } from './Controller/Pessoa.js'; 
 
 import { createTableEmpresa, insertEmpresa, selectEmpresas, selectEmpresa, updateEmpresa, deleteEmpresa } from './Controller/Empresa.js';
 
@@ -24,5 +24,6 @@ router.get('/empresa', selectEmpresa);
 router.post('/empresa', insertEmpresa); 
 router.put('/empresa', updateEmpresa); 
 router.delete('/empresa', deleteEmpresa); 
+
 
 export default router; 

@@ -1,4 +1,5 @@
-import { openDb } from '../configDB.js'; 
+// import { openDb } from '../configDB.js'; 
+import { openDb } from "../configDB.js";
 
 export async function createTableEmpresa() {
     openDb().then(db => {
@@ -14,7 +15,8 @@ export async function selectEmpresas (req, res) {
 }
 
 export async function selectEmpresa (req, res) {
-    let id = req.body.id; 
+    let id = req.query.id; 
+
     return openDb().then(db => {
         return db.get('SELECT * FROM Empresa WHERE id = ?', [id])
         .then(empresa => res.json(empresa));
@@ -32,7 +34,6 @@ export async function insertEmpresa(req, res) {
 
 }
 
-
 export async function updateEmpresa(req, res) {
     let empresa = req.body; 
     openDb().then(db => {
@@ -44,7 +45,7 @@ export async function updateEmpresa(req, res) {
     })
 }
 
-export async function deleteEmpresa (req, res) {
+export async function deleteEmpresa  (req, res) {
     let id = req.body.id
      openDb().then(db => {
         db.get('DELETE FROM Empresa WHERE id = ?', [id])
@@ -55,5 +56,3 @@ export async function deleteEmpresa (req, res) {
         "statusCode" : 200
     })
 }
-
-
